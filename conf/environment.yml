@@ -1,0 +1,11 @@
+name: mov10-env
+channels:
+  - conda-forge
+  - bioconda
+  - r
+dependencies:
+  - curl
+  - r-base=4.3
+  - bioconductor-limma
+  - r-ggplot2
+  - r-pheatmap
